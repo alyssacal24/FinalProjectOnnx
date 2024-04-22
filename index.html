@@ -52,40 +52,48 @@
   <input type="checkbox" class="famsize" value="GT3"> > 3 <br/>
   Parents:  <input type="checkbox" class="Pstatus" value="T"> Living Together
   <input type="checkbox" class="Pstatus" value="A"> Apart <br/>
-<select class="Medu">
-  <option value="0">None</option>
-  <option value="1">Primary Education (4th Grade)</option>
-  <option value="2">5th to 9th Grade</option>
-  <option value="3">Secondary Education</option>
-  <option value="4">Higher Education</option>
-<select class="Fedu">
+Mothers Education:  <select class="Medu">
   <option value="0">None</option>
   <option value="1">Primary Education (4th Grade)</option>
   <option value="2">5th to 9th Grade</option>
   <option value="3">Secondary Education</option>
   <option value="4">Higher Education</option>
 </select>
-<select class="Mjob">
-  <option value="teacher">Teacher</option>
-  <option value="health">Health Care Related</option>
-  <option value="services">Civil Services (e.g. administrative or police)</option>
-  <option value="at_home">At Home</option>
-  <option value="other">Other</option>
+<br><br>
+
+Fathers Educattion:  <select class="Fedu">
+  <option value="0">None</option>
+  <option value="1">Primary Education (4th Grade)</option>
+  <option value="2">5th to 9th Grade</option>
+  <option value="3">Secondary Education</option>
+  <option value="4">Higher Education</option>
 </select>
-  <select class="Fjob">
-  <option value="teacher">Teacher</option>
-  <option value="health">Health Care Related</option>
-  <option value="services">Civil Services (e.g. administrative or police)</option>
-  <option value="at_home">At Home</option>
-  <option value="other">Other</option>
+<br><br>
+
+Mothers Job:  <select class="Mjob">
+  <option value="0">Teacher</option>
+  <option value="1">Health Care Related</option>
+  <option value="3">Civil Services (e.g. administrative or police)</option>
+  <option value="4">At Home</option>
+  <option value="5">Other</option>
 </select>
-<select class="reason">
-  <option value="home">Close to Home</option>
-  <option value="reputation">School Reputation</option>
-  <option value="course">Course Preference</option>
-  <option value="other">Other</option>
-</select>  <input type="checkbox" class="guardian" value="0"> x12 (mother: 0, father: 1, other: 2) <br/>
-  <input type="text" class="traveltime" value="0"> x13 <br/>
+<br><br>
+
+Fathers Job:  <select class="Fjob">
+  <option value="0">Services</option>
+  <option value="1">Other</option>
+  <option value="2">Services</option>
+  <option value="3">Health</option>
+  <option value="4">Teacher/At Home</option>
+</select>
+Reason to Choose School<select class="reason">
+  <option value="0">Close to Home</option>
+  <option value="1">School Reputation</option>
+  <option value="2">Course Preference</option>
+  <option value="3">Other</option>
+  <input type="checkbox" class="guardian" value="0"> Mother (0)
+  <input type="checkbox" class="guardian" value="1"> Father (1)
+  <input type="checkbox" class="guardian" value="2"> Other (2) <br/>  <input type="text" class="traveltime" value="0"> x13 <br/>
   <input type="text" class="studytime" value="0"> x14 <br/>
   <input type="text" class="failures" value="0"> x15 <br/>
   <input type="checkbox" class="schoolsup" value="0"> x16 (yes: 0, no: 1) <br/>
