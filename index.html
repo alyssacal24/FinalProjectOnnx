@@ -91,13 +91,29 @@ Reason to Choose School<select class="reason">
   <option value="1">School Reputation</option>
   <option value="2">Course Preference</option>
   <option value="3">Other</option>
-  <input type="checkbox" class="guardian" value="0"> Mother (0)
-  <input type="checkbox" class="guardian" value="1"> Father (1)
-  <input type="checkbox" class="guardian" value="2"> Other (2) <br/>  <input type="text" class="traveltime" value="0"> x13 <br/>
-  <input type="text" class="studytime" value="0"> x14 <br/>
-  <input type="text" class="failures" value="0"> x15 <br/>
-  <input type="checkbox" class="schoolsup" value="0"> x16 (yes: 0, no: 1) <br/>
-  <input type="checkbox" class="famsup" value="0"> x17 (yes: 0, no: 1) <br/>
+  <input type="checkbox" class="guardian" value="0"> Mother
+  <input type="checkbox" class="guardian" value="1"> Father
+  <input type="checkbox" class="guardian" value="2"> Other <br/>
+Travel Time<select class="traveltime">
+  <option value="1">Less than 15 minutes</option>
+  <option value="2">15 to 30 minutes</option>
+  <option value="3">30 minutes to 1 hour</option>
+  <option value="4">More than 1 hour</option>
+</select><br><br>
+<select class="studytime">
+  <option value="1">Less than 2 hours per week</option>
+  <option value="2">2 to 5 hours per week</option>
+  <option value="3">5 to 10 hours per week</option>
+  <option value="4">More than 10 hours per week</option>
+<select class="failures">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4 or more</option>
+<input type="checkbox" class="schoolsup" value="yes"> Yes
+<input type="checkbox" class="schoolsup" value="no"> No<br>
+<input type="checkbox" class="famsup" value="yes"> Yes
+<input type="checkbox" class="famsup" value="no"> No<br>
   <input type="checkbox" class="paid" value="0"> x18 (yes: 0, no: 1) <br/>
   <input type="checkbox" class="activities" value="0"> x19 (yes: 0, no: 1) <br/>
   <input type="checkbox" class="nursery" value="0"> x20 (yes: 0, no: 1) <br/>
