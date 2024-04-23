@@ -3,7 +3,6 @@ async function runExample() {
     var x = [];
 
     // Retrieve input values from HTML input elements
-    console.log('runExample() function is executing...');
     x[0] = document.querySelector('.school:checked').value || '';
     x[1] = document.querySelector('.sex:checked').value || '';
     x[2] = document.querySelector('.age').value || '';
@@ -37,7 +36,6 @@ async function runExample() {
     x[30] = document.querySelector('.G1').value || '';
     x[31] = document.querySelector('.G2').value || '';
 
-    console.log('Retrieved input values:', x);
 
 
     // Create a Float32Array from the input values
