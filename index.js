@@ -45,7 +45,7 @@ async function runExample() {
     let session = new onnx.InferenceSession();
 
     // Load the ONNX model
-    await session.loadModel("./DLnet_StudentData.onnx");
+    await session.loadModel("./DLnet_StudentPerformance.onnx");
 
     // Run the model with the input tensor
     let outputMap = await session.run([tensorX]);
